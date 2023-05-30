@@ -30,6 +30,6 @@ int main(){
     printf("%p\n", liste+8);
     printf("%p\n", get_element(liste, 59));
 
-
+    free(liste);
     printf("==============END==============\n");
 }
