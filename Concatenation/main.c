@@ -7,15 +7,20 @@
 
 
 int main(){
-    printf("toto");
+    printf("=============START=============\n");
 
+    char *chaine1 = malloc( sizeof(char)*10 );
+    char *chaine2 = malloc( sizeof(char)*10 );
+    char *chaine3= malloc( sizeof(char)*20 );
 
-
-    char *chaine1 = "Hello ";
-    char *chaine2 = "World !";
+    strcpy(chaine1, "Hello ");
+    strcpy(chaine2, "World !");
 //    char *chaine3 = concat(chaine1, chaine2);
 
-    strcat(chaine1,"coucou");
-    printf("%s", chaine1);
+    strcpy(chaine3,chaine1);
+    strcat(chaine3,chaine2);
+
+    printf("%s\n", chaine3);
+    printf("==============END==============\n");
 
 }
