@@ -28,7 +28,7 @@ int main(){
 
     //Check avant fonction
     printf("%p\n", liste+8);
-    printf("%p", get_element(liste, 59));
+    printf("%p\n", get_element(liste, 59));
 
 
     printf("==============END==============\n");
