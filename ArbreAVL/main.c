@@ -174,6 +174,7 @@ void printAVL(struct Node* node) {
     printAVL(node->rightChild);
 }
 
+
 int main() {
     struct Node* root = NULL;
 
