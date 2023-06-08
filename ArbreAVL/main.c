@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//test
 typedef struct Node {
     int value;
     struct Node* leftChild;
